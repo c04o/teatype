@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	_ "github.com/charmbracelet/bubbletea"
+	_ "github.com/charmbracelet/lipgloss"
+)
 
 func main() {
 	fmt.Println("Hello, world!")
